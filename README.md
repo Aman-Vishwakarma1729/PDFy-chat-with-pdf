@@ -19,5 +19,10 @@ Information is more available and abundant than ever in this digital age, and it
 2. Created, **README.md** file to maintain all the recrds and steps used in project.
 3. created, **requirements.txt** file so that all the requirements can be noted with specific version.
 4. Created, **.gitignore** so that the files that we don't want to share on github can be avoided.
-5. Created, **.env** where all credentials will be stored and this file will be ignored by git through **.gitignore**.
+5. Created, **.env** where all credentials and configurations will be stored and this file will be ignored by git through **.gitignore**.
+6. Created, **.python-version** where i have stored my python version.
+7. Created, **setup.py** file. 
+   - this script is a standard way to define metadata and dependencies for a Python package.
+   - The script is designed to be executed to create a distributable package for this project.
+   - To run this file >> **python setup.py install**.
 

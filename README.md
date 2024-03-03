@@ -6,6 +6,7 @@
 
 1. [Introduction](#introduction)
 2. [Steps](#steps)
+3. [Use_the_project](use-the-project)
 
 
 ## Introduction
@@ -33,3 +34,25 @@ Information is more available and abundant than ever in this digital age, and it
    - faiss-cpu: Facebook AI similarity Search, FAISS CPU is a library for efficient similarity search and clustering of dense vectors. It is written in C++ and provides a       Python interface.
    - openai
    - huggingface-hub
+9. Created a basic GUI using streamlit
+10. Obtain API keys from **OPENAI** and **HUGGINGFACEHUB** and save them in .env .
+11. Proceeded according to **PDFy_Architecture**.
+   - At **embedding** stage we had two ways to convert the text_chunks to vector:
+        -- Using OPENAI which is paid
+        -- Using Instructor platform which is free but uses lot of hardware resources so very large file will take time.
+              --- To use ***Instructor** we need no isntall some other libraries:
+                  - InstructorEmbedding
+                  - sentence-transformers
+12. We have used **FAISS** for storing vectors of our text_chunks which uses our local system to store its like a local database.
+
+
+## Use_the_project
+--------------
+
+1. Git clone this repository
+2. pip isntall requirements.txt
+3. create .env file and enter your "OpenAI" and "HuggingFaceHub" API keys there
+   - OPENAI_API_KEY = 
+   - HUGGINGFACEHUB_API_TOKEN =
+4. streamlit run application.py
+5. Upload your pdfs and ask questions

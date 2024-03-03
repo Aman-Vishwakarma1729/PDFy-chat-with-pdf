@@ -25,4 +25,11 @@ Information is more available and abundant than ever in this digital age, and it
    - this script is a standard way to define metadata and dependencies for a Python package.
    - The script is designed to be executed to create a distributable package for this project.
    - To run this file >> **python setup.py install**.
-
+8. Installed some importan libraries.
+   - streamlit: To create GUI
+   - pypdf2: To read the pdf using python
+   - langchain: An open-source framework that helps developers to work with LLM's 
+   - python-dotenv: To work with .env file.
+   - faiss-cpu: Facebook AI similarity Search, FAISS CPU is a library for efficient similarity search and clustering of dense vectors. It is written in C++ and provides a       Python interface.
+   - openai
+   - huggingface-hub
